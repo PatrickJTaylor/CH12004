@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - CH12004/**
 
 env:
   BASE_URL: /${{ github.event.repository.name }}
